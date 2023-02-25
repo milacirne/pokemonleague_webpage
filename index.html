@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Indigo League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-----------------------------------------------------HEADER----------------------------------------------------------------->
+    <header class="navbar sticky-top">
+        <div class="container d-flex justify-content-between">
+            <img class="navbar-brand" src="./images/header/pokemon_logo.png" alt="Pokémon Indigo League Logo">
+            <img class="navbar-brand" src="./images/header/logo.png" alt="Pokémon Indigo League Logo">
+        </div>
+    </header>
+<!-----------------------------------------------------CAROUSEL--------------------------------------------------------------->
+    <section id="carousel">
+        <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-pkmn">
+            <div class="carousel-inner">
+                <!----------------------------------NUMBER #1---------------------------------->
+                <div data-bs-interval="2000"  class="carousel-item active">
+                    <img class="d-block w-100" src="./images/carousel/pokemonleague_1.png" alt="Pokémon League Entrance">
+                </div>   
+                <!----------------------------------NUMBER #2---------------------------------->
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/carousel/pokemonleague_2.png" alt="Pokémon League Field">
+                </div>
+                <!----------------------------------NUMBER #3---------------------------------->
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/carousel/pokemonleague_3.png" alt="Pokémon League Logo">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-pkmn" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-pkmn" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-pkmn" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-pkmn" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-pkmn" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </section>
+<!-----------------------------------------------------CARDS--------------------------------------------------------------->
+    <section id="elite-four" class="pb-5">
+        <div class="container">
+            <h1 class="fs-2 fw-bold pt-5 pb-5 text-center">The Elite <span class="text-coloured">Four</span></h1>
+            <div class="row no-gutters justify-content-between d-block d-md-flex cards">
+                <!----------------------------------NUMBER #1---------------------------------->
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-4 d-flex flex-wrap align-items-center justify-content-end">
+                                <img img class="card.img leaders" src="./images/elite-four/lorelei.png" alt="Lorelei">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"> <span class="ice">ICE</span>
+                                    <h6 class="card-subtitle">Lorelei</h5>
+                                    <img class="card-img pt-2 teams" src="./images/teams/lorelei_team.png" alt="Lorelei's team">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------NUMBER #2---------------------------------->
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-4 d-flex flex-wrap align-items-center justify-content-end">
+                                <img img class="card.img leaders" src="./images/elite-four/bruno.png" alt="Bruno">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"> <span class="fighting">FIGHTING</span>
+                                    <h6 class="card-subtitle">Bruno</h5>
+                                    <img class="card-img pt-2 teams" src="./images/teams/bruno_team.png" alt="Bruno's team">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------NUMBER #3---------------------------------->
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-4 d-flex flex-wrap align-items-center justify-content-end">
+                                <img class="card.img leaders" src="./images/elite-four/agatha.png" alt="Agatha">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"> <span class="ghost">GHOST</span>
+                                    <h6 class="card-subtitle">Agatha</h5>
+                                    <img class="card-img pt-2 teams" src="./images/teams/agatha_team.png" alt="Agatha's team">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------NUMBER #4---------------------------------->
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-4 d-flex flex-wrap align-items-center justify-content-end">
+                                <img img class="card.img leaders" src="./images/elite-four/lance.png" alt="Lance">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"> <span class="dragon">DRAGON</span>
+                                    <h6 class="card-subtitle">Lance</h5>
+                                    <img class="card-img pt-2 teams" src="./images/teams/lance_team.png" alt="Lance's team">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

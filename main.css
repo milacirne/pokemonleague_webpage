@@ -1,0 +1,97 @@
+.navbar {
+    background-color: rgb(25, 25, 51);
+    border-bottom: 5px solid #fff;
+    
+}
+
+.container {
+    max-width: 70vw;
+    width: 100%;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-coloured {
+    color: rgb(205, 30, 30);
+}
+
+#elite-four {
+    background-color: rgb(25, 25, 51);
+}
+
+#elite-four h1 {
+    color: #fff;
+}
+
+.leader {
+    margin: auto;
+}
+
+.card {
+    background-color: #bdc0f9ba;
+    margin-right: 2px;
+    border: 4px white solid;
+    border-radius: 20px;
+}
+
+.leaders {
+    height: 105px;
+}
+
+.teams {
+    width: 150px;
+}
+
+.ice {
+    color: rgb(55, 110, 128);
+}
+
+.fighting {
+    color: rgb(103, 35, 35);
+}
+
+.ghost {
+    color: rgb(66, 12, 66);
+}
+
+.dragon {
+    color: rgb(19, 19, 66);
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        height: 55px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .teams {
+        width: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #elite-four .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 32%);
+    }
+}
